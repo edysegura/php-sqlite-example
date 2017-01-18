@@ -1,0 +1,43 @@
+/**
+ *
+ * Documento CSS
+ * @author Edy Segura
+ *
+ */
+
+img {
+	border: none;
+	margin-right: 10px;
+}
+
+ol li {
+	position: relative;
+	cursor: default;
+}
+
+ol ul {
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	padding: 5px;
+	border: 1px solid #000;
+	background: yellow;
+	list-style-type: none;
+	display: none;
+	color: orange;
+	z-index: 1;
+}
+
+ol li:hover ul {
+	color: #000;
+	display: block;
+}
+
+ol li:hover {
+	color: blue;
+}
+
+ol ul li,
+ol ul li:hover {
+	color: #000;
+}
